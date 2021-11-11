@@ -1,6 +1,6 @@
 # Playwright Sandbox
 <p align=center>
-<img src="https://ichi.pro/assets/images/max/724/1*Rz3_Yj4LE67vGBgA9PkwHA.png" alt="Playwright Logo" width="200" center/> 
+<img src="https://ichi.pro/assets/images/max/724/1*Rz3_Yj4LE67vGBgA9PkwHA.png" alt="Playwright Logo" width="200"/> 
 </p>
 
 <p align=center>⚠️ Work in Progress ⚠️</p>
