@@ -2,10 +2,10 @@ import { test, expect } from "@playwright/test";
 
 test("Text Box Element", async ({ page }) => {
   await page.goto("https://demoqa.com/text-box");
-  await page.fill("id=userName", "Test User");
-  await page.fill("id=userEmail", "test@test.com");
-  await page.fill("id=currentAddress", "4632 Hall Valley Drive");
-  await page.fill("id=permanentAddress", "4404 White Oak Drive");
+  await page.type("id=userName", "Test User");
+  await page.type("id=userEmail", "test@test.com");
+  await page.type("id=currentAddress", "4632 Hall Valley Drive");
+  await page.type("id=permanentAddress", "4404 White Oak Drive");
   await page.click("id=submit");
   await page.click("id=close-fixedban");
   await expect(page.locator('text=Name:Test User')).toBeVisible();
