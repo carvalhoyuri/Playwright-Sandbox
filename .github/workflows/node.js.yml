@@ -28,6 +28,6 @@ jobs:
         cache: 'npm'
     - run: npm config set user 0
     - run: npm config set unsafe-perm true
-    - run: npm install
+    - run: npm install --unsafe-perm
     - run: npx playwright install
     - run: npx playwright test
