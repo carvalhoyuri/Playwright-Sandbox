@@ -20,4 +20,8 @@ steps:
 
 - task: CmdLine@2
   inputs:
+    script: 'npm install -D @playwright/test'
+
+- task: CmdLine@2
+  inputs:
     script: 'npx playwright test'
