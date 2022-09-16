@@ -1,7 +1,5 @@
 # Starter pipeline
-- task: CmdLine@2
-  inputs:
-    script: 'npx playwright install --with-deps'
+
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
@@ -15,3 +13,7 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
+
+- task: CmdLine@2
+  inputs:
+    script: 'npx playwright install --with-deps'
