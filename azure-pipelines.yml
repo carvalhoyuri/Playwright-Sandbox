@@ -17,3 +17,7 @@ steps:
 - task: CmdLine@2
   inputs:
     script: 'npx playwright install --with-deps'
+
+- task: CmdLine@2
+  inputs:
+    script: 'npx playwright test'
